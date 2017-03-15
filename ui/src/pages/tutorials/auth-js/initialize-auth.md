@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I initialized the Auth service!"
+buttonTitle: "I initialized the Auth service"
 description: "In this section, you'll learn how to enable WeDeploy Auth on your application."
 layout: "tutorial"
 parentId: "auth-js"

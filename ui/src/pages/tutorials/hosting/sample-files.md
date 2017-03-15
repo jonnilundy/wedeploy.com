@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I have the sample files on my machine!"
+buttonTitle: "I have the sample files on my machine"
 description: "In this section, you'll learn how to deploy an application using WeDeploy Hosting."
 layout: "tutorial"
 parentId: "hosting"

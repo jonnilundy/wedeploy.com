@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I added the Google script!"
+buttonTitle: "I added the Google script"
 description: "In this section, you'll learn how to enable WeDeploy Auth on your application."
 layout: "tutorial"
 parentId: "auth-js"

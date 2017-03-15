@@ -1,5 +1,5 @@
 ---
-buttonTitle: "My service is live!"
+buttonTitle: "My service is live"
 description: "In this section, you'll learn how to enable WeDeploy Data on your application."
 layout: "tutorial"
 parentId: "data-js"

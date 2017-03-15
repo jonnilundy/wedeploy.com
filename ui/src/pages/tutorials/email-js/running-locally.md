@@ -1,5 +1,5 @@
 ---
-buttonTitle: "My local environment is running!"
+buttonTitle: "My local environment is running"
 description: "In this section, you'll learn how to enable WeDeploy Email on your application."
 layout: "tutorial"
 parentId: "email-js"

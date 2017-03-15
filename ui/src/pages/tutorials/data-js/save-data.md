@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I see the new tasks in the console!"
+buttonTitle: "I see the new tasks in the console"
 description: "In this section, you'll learn how to enable WeDeploy Data on your application."
 layout: "tutorial"
 parentId: "data-js"

@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I added the container.json!"
+buttonTitle: "I added the container.json"
 description: "In this section, you'll learn how to deploy an application using WeDeploy Hosting."
 layout: "tutorial"
 parentId: "hosting"

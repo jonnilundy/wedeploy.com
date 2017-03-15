@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I have setup my email parameters!"
+buttonTitle: "I have setup my email parameters"
 description: "In this section, you'll learn how to enable WeDeploy Email on your application."
 layout: "tutorial"
 parentId: "email-js"

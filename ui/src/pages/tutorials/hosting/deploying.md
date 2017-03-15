@@ -1,5 +1,5 @@
 ---
-buttonTitle: "My project is live!"
+buttonTitle: "My project is live"
 description: "In this section, you'll learn how to deploy an application using WeDeploy Hosting."
 layout: "tutorial"
 parentId: "hosting"

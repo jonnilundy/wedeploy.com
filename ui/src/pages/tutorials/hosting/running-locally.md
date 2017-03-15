@@ -1,5 +1,5 @@
 ---
-buttonTitle: "The local environment is running!"
+buttonTitle: "The local environment is running"
 description: "In this section, you'll learn how to deploy an application using WeDeploy Hosting."
 layout: "tutorial"
 parentId: "hosting"

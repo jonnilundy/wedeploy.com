@@ -1,5 +1,5 @@
 ---
-buttonTitle: "I cloned the sample repo!"
+buttonTitle: "I cloned the sample repo"
 description: "In this section, you'll learn how to enable WeDeploy Data on your application."
 layout: "tutorial"
 parentId: "data-js"
