@@ -3,7 +3,7 @@ title: "Sign-in With Facebook"
 description: "You can let your users authenticate using their Facebook Accounts by integrating Facebook Sign-In into your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 3
+weight: 4
 ---
 
 ### {$page.title}

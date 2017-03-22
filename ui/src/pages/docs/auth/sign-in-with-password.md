@@ -3,7 +3,7 @@ title: "Sign-in With Password"
 description: "You can let your users authenticate with WeDeploy using their email addresses and passwords."
 headerTitle: "Auth"
 layout: "guide"
-weight: 6
+weight: 7
 ---
 
 ### {$page.title}

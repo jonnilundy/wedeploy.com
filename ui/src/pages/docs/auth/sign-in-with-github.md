@@ -3,7 +3,7 @@ title: "Sign-in With GitHub"
 description: "You can let your users authenticate using their GitHub Accounts by integrating GitHub Sign-In into your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 4
+weight: 5
 ---
 
 ### {$page.title}

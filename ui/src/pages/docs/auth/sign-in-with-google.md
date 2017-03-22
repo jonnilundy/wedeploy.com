@@ -3,7 +3,7 @@ title: "Sign-in With Google"
 description: "You can let your users authenticate using their Google Accounts by integrating Google Sign-In into your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 5
+weight: 6
 ---
 
 ### {$page.title}

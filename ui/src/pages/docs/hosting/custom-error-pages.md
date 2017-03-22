@@ -25,3 +25,7 @@ Check the [boilerplate-hosting](https://github.com/wedeploy/boilerplate-hosting/
 </aside>
 
 </article>
+
+## What's Next
+
+* Now that you have setup your custom error pages, learn more about [environment variables](/docs/hosting/env-variables.html)
