@@ -48,6 +48,8 @@ Here is a list of all the Auth environment variable keys you can use.
 | - | - |
 | WEDEPLOY_AUTH_EMAIL_CONTENT | Set content for password reset email |
 | WEDEPLOY_AUTH_EMAIL_REGEX | Validate an email with Regular Expression |
+| WEDEPLOY_AUTH_EMAIL_SENDER | Set password reset email sender |
+| WEDEPLOY_AUTH_EMAIL_SUBJECT | Set password reset email subject |
 | WEDEPLOY_AUTH_FACEBOOK | Enable Facebook Auth integration |
 | WEDEPLOY_AUTH_FACEBOOK_CLIENT_ID | Facebook OAuth ID |
 | WEDEPLOY_AUTH_FACEBOOK_CLIENT_SECRET | Facebook OAuth password |
