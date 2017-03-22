@@ -12,21 +12,9 @@ weight: 2
 
 <article id="1">
 
-## Understanding configuration files
-
-By default WeDeploy Data service is going to use all the JSON files starting with `api-*` and also the file `api.json`.
-
-These files are used to help you manage features such as path validation, authentication, and params validation.
-
-The api JSON files are located at the same path of the `./container.json` and are used following the ordering filesystem.
-
-</article>
-
-<article id="2">
-
 ## JSON attributes
 
-After understanding how the api configuration files work, it's time to learn what are the supported attributes:
+NOTE: If you are unfamiliar with how WeDeploy uses JSON files, please visit our page about **[configurating files](/docs/getting-started/configuration-files.html)**
 
 | Field | Description |
 | - | - |
@@ -130,7 +118,7 @@ You generally would use `parameters` to force validation in order to make sure t
 
 </article>
 
-<article id="3">
+<article id="2">
 
 ## Allowing usage of all the collections
 
@@ -149,7 +137,7 @@ The path `/\*` tells the data service to allow any request to the base path of t
 
 </article>
 
-<article id="4">
+<article id="3">
 
 ## Validating resources
 
@@ -213,4 +201,4 @@ $auth !== null && $auth.id === $params.id
 
 ## What's next?
 
-Now that you have *WeDeploy Data* API settled up, you can interact [saving data](/docs/data/saving-data.html).
+Now that you understand data configuration, you can start [saving data](/docs/data/saving-data.html).
