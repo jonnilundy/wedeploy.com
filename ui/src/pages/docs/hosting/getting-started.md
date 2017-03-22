@@ -107,4 +107,4 @@ http://hosting.<projectID>.wedeploy.io
 
 ## What's next?
 
-* Now you can learn how to [show custom error pages to your users](/docs/hosting/custom-error-pages.html).
+* Now you can learn about [environment variables](/docs/hosting/env-variables.html).

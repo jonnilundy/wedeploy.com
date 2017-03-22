@@ -3,7 +3,7 @@ title: "Custom Error Pages"
 description: "Show error pages that are consistent with your site's style."
 headerTitle: "Hosting"
 layout: "guide"
-weight: 2
+weight: 3
 ---
 
 ### {$page.title}
@@ -25,7 +25,3 @@ Check the [boilerplate-hosting](https://github.com/wedeploy/boilerplate-hosting/
 </aside>
 
 </article>
-
-## What's Next
-
-* Now that you have setup your custom error pages, learn more about [environment variables](/docs/hosting/env-variables.html)

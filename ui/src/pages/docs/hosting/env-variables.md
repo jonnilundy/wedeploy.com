@@ -3,7 +3,7 @@ title: "Environment Variables"
 description: "Use environment variables to control your app."
 headerTitle: "Hosting"
 layout: "guide"
-weight: 3
+weight: 2
 ---
 
 ### {$page.title}
@@ -50,3 +50,7 @@ Here is a list of all the Hosting environment variable keys you can use.
 | WEDEPLOY_WEB_ERROR_PATH | Redirect Hosting error target folder |
 
 </article>
+
+## What's next
+
+* Now you can learn about [customized error pages](/docs/hosting/custom-error-pages.html)
