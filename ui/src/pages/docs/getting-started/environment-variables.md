@@ -36,3 +36,7 @@ WeDeploy can help you to configure environment variables for your services. Each
 Any environment variable provided using dashboard overwrites the environment variables provided in `container.json` of your service.
 
 </article>
+
+## What's next?
+
+* Learn about using the [WeDeploy API client](/docs/getting-started/using-the-api-client.html).

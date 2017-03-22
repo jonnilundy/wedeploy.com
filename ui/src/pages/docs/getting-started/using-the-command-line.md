@@ -184,3 +184,7 @@ or
 we list --remote wedeploy
 ```
 </article>
+
+## What's next?
+
+* Learn about using the [configuration files](/docs/getting-started/configuration-files.html).

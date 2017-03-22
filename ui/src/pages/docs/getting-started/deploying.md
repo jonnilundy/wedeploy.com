@@ -108,4 +108,4 @@ Now you can clone the repo to your local machine, make changes, push the changes
 
 ## What's next?
 
-* Now that you have deployed, learn more about using the [WeDeploy CLI for local development](/docs/intro/using-the-command-line.html).
+* Now that you have deployed, learn more about using the [Dashboard](/docs/getting-started/using-the-dashboard.html).

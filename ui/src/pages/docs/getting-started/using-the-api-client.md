@@ -21,3 +21,7 @@ In order to send/receive requests to/from WeDeploy, we need to include the JavaS
 ```
 
 </article>
+
+## What's next?
+
+* Learn about using [custom domains](/docs/getting-started/custom-domains.html).

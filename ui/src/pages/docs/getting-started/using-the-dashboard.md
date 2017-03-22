@@ -102,3 +102,7 @@ That's it! Using a sofisticated Loadbalancer system and service discovering, WeD
 ![URL Generated](https://cloud.githubusercontent.com/assets/301291/17796616/b2ca3fd4-6576-11e6-8e18-85423f206b94.jpg)
 
 </article>
+
+## What's next?
+
+* Learn about using the [WeDeploy CLI](/docs/getting-started/using-the-command-line.html).

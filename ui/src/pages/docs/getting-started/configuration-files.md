@@ -1,5 +1,5 @@
 ---
-title: "Understanding Configuration Files"
+title: "Configuration Files"
 description: "This is an overview of how WeDeploy uses json files to help you to configure your project."
 headerTitle: "Getting Started"
 layout: "guide"
@@ -82,3 +82,7 @@ WeDeploy uses this json file to reference to service in case it's already create
 }
 ```
 </article>
+
+## What's next?
+
+* Learn more about using the [environment variables](/docs/getting-started/environment-variables.html).

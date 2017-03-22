@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "How It Works"
 description: "Deploying is very easy with WeDeploy. You can start hosting your static files, buildling a database, or even sending an email within a couple of minutes!"
 headerTitle: "Getting Started"
 layout: "guide"
