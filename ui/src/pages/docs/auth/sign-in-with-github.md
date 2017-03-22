@@ -3,7 +3,7 @@ title: "Sign-in With GitHub"
 description: "You can let your users authenticate using their GitHub Accounts by integrating GitHub Sign-In into your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 5
+weight: 4
 ---
 
 ### {$page.title}
@@ -68,4 +68,4 @@ Or you can add those environment variables using the dashboard.
 
 ## What's next?
 
-* Now we're ready to start [enabling other login providers into your app](/docs/auth/sign-in-with-google.html).
+* Learn how to allow users to [sign-in using their Google profile](/docs/auth/sign-in-with-facebook.html).

@@ -3,7 +3,7 @@ title: "Sign-in With Password"
 description: "You can let your users authenticate with WeDeploy using their email addresses and passwords."
 headerTitle: "Auth"
 layout: "guide"
-weight: 7
+weight: 5
 ---
 
 ### {$page.title}
@@ -32,4 +32,4 @@ WeDeploy
 
 ## What's next?
 
-* Now you can start building your apps with authentication.
+* Learn how to [manage your users](/docs/auth/manage-users.html).

@@ -3,7 +3,7 @@ title: "Sign-in With Google"
 description: "You can let your users authenticate using their Google Accounts by integrating Google Sign-In into your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 6
+weight: 5
 ---
 
 ### {$page.title}
@@ -68,4 +68,4 @@ Or you can add those environment variables using the dashboard.
 
 ## What's next?
 
-* Learn how to sign-up users using their [email and password into your app](/docs/auth/sign-in-with-password.html).
+* Learn how to allow users to [sign-in using an email and password](/docs/auth/sign-in-with-facebook.html).

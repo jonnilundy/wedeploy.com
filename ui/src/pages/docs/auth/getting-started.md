@@ -153,4 +153,4 @@ WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
 
 ## What's next?
 
-* Now we're ready to [start managing your users](/docs/auth/manage-users.html).
+* Start learning about [environment variables](/docs/auth/env-variables.html).

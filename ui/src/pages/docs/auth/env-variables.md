@@ -3,7 +3,7 @@ title: "Environment Variables"
 description: "Use environment variables to control your app."
 headerTitle: "Auth"
 layout: "guide"
-weight: 3
+weight: 2
 ---
 
 ### {$page.title}
@@ -64,4 +64,4 @@ Here is a list of all the Auth environment variable keys you can use.
 
 ## What's next?
 
-* Learn how to sign-up users using their [Facebook into your app](/docs/auth/sign-in-with-facebook.html).
+* Learn how to allow users to [sign-in using their Facebook profile](/docs/auth/sign-in-with-facebook.html).
