@@ -12,37 +12,37 @@ weight: 3
 
 <article id="1">
 
-## Create an account
+## Create an account	
+
+**Create a profile**
 
 First you need to create a WeDeploy account by signing up through the dashboard [signup page](http://dashboard.wedeploy.com/signup).
 
 ![SignUp](https://cloud.githubusercontent.com/assets/301291/18884345/e5bd302e-849b-11e6-9be7-552acda97a31.png)
 
-</article>
+**Access the dashboard**
 
-<article id="2">
-
-## Access your dashboard
-
-As the main page, the dashboard will list all your projects and status of availability in the server. In the Dashboard, click in New Project .
+Once you are logged in, you will see the main page of the dashboard whcih will list all your projects and their status of availability in the server.
 
 ![Dashboard](https://cloud.githubusercontent.com/assets/301291/18655293/798013ae-7e9c-11e6-8f7f-4d029d73d2bb.png)
 
 </article>
 
-<article id="3">
+<article id="2">
 
-## Create a new project
+## Create a project	
 
-You are able to organize your services by project. Select a project ID and click in Create Project.
+**Create a project**
 
-![New Project](https://cloud.githubusercontent.com/assets/301291/18656444/0409e49c-7ea6-11e6-8961-eeccd4deab43.png)
+On the Dashboard, click on New Project.
 
-</article>
+![Install Container](https://cloud.githubusercontent.com/assets/23219848/24224968/53dda822-0f1b-11e7-81d9-1fac9084113d.png)
 
-<article id="4">
+**Name your project**
 
-## Open your project
+![Naming container](https://cloud.githubusercontent.com/assets/23219848/24225370/535e5a48-0f1d-11e7-94bc-81bb46515800.png)
+
+**Open your project**
 
 Open your project by clicking on your project domain.
 
@@ -50,54 +50,55 @@ Open your project by clicking on your project domain.
 
 </article>
 
-<article id="5">
+<article id="3">
 
-## Click on install service
+## Create a service	
 
-Projects can have more than one service. In this example we're going to deploy a static website.
+**Click on 'Install service'**
+
+You can install more than one service, but in this example, we're going to deploy a static website.
 
 ![Install Container](https://cloud.githubusercontent.com/assets/301291/18655453/c83e2a66-7e9d-11e6-8440-673e3781335b.png)
 
-</article>
+**Select a service type**
 
-<article id="6">
-
-## Select a service type
-In this tutorial we're going to use the WeDeploy Hosting in order to host a static project.
+Select the service you would like to build. In this case, WeDeploy Hosting.
 
 ![Select a Container Type](https://cloud.githubusercontent.com/assets/301291/18656521/9f3392b0-7ea6-11e6-9d05-29c68a657f6d.png)
 
-</article>
+**Fill in ID**
 
-<article id="7">
-
-## Fill in the ID click on install service
+If you don't want to come up with your own name, you can leave the field blank and click "Install Service" and it will apply a random name to your service.
 
 ![Install Container Form](https://cloud.githubusercontent.com/assets/301291/18656546/cac3682e-7ea6-11e6-8e24-354a1df99ea0.png)
 
-</article>
+**See container status**
 
-<article id="8">
-
-## The container is going to be up and running
+Now go to "Services" and you will see the status of your new Hosting service.
 
 ![Container Up and Running](https://cloud.githubusercontent.com/assets/301291/18656561/f076a57c-7ea6-11e6-9d9d-aa288ca72135.png)
 
 </article>
 
-<article id="9">
+<article id="4">
 
-## Access the URL generated for your service
-Now that you installed the boilerplate, in the service screen is possible to see the status of the service and its URL. Click on the URL to copy to your clipboard and open that in a new tab in your browser.
+## Access the url	
 
-![URL Generated](https://cloud.githubusercontent.com/assets/301291/18656570/0e5adc7a-7ea7-11e6-8dd8-74f3697b520f.png)
+**Set home service**
 
-</article>
+By default, each WeDeploy service you install has its own subdomain (`<service-name>.<project-name>.wedeploy.io`). In order to set Hosting as the home service so that it is routed to your projects main url (`<project-name>.wedeploy.io`), you can click the three circle menu button on the far right of the service and select "Set as Home Service". This can also been done in your project settings.
 
-<article id="10">
+![Set Home Service](https://cloud.githubusercontent.com/assets/23219848/24225643/d872cff6-0f1e-11e7-8446-8baf6d21dd50.png)
 
-## It works!
-That's it! Using a sofisticated Loadbalancer system and service discovering, WeDeploy automatically creates a URL and points that to your container.
+**Access url**
+
+When you install a new service, it automatically deploys our boilerplate so that the service is not completely empty. You can now click the url underneath your project name in the top left corner.
+
+![URL Generated](https://cloud.githubusercontent.com/assets/23219848/24225912/6582b612-0f20-11e7-8011-09395f2dc89c.png)
+
+**See the live site**
+
+That's it! Using a sofisticated Loadbalancer system and service discoverer, WeDeploy automatically creates a URL and points that to your container.
 
 ![URL Generated](https://cloud.githubusercontent.com/assets/301291/17796616/b2ca3fd4-6576-11e6-8e18-85423f206b94.jpg)
 
