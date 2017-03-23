@@ -27,13 +27,38 @@ configurations in different files. On WeDeploy you can take advantage of Environ
 
 WeDeploy can help you to configure environment variables for your services. Each service can have its own group of environment variables and can be configured follwing these steps:
 
+**Using the Dashboard**
+
 1) After create a project and installing a service on the [dashboard](http://dashboard.wedeploy.com). Go to the service page.
 2) Click on Environment Vars.
-3) Click on Update Service.
+3) Add an Environment key and value
+4) Click on Update Service.
 
 ![envvar](https://cloud.githubusercontent.com/assets/301291/19909475/27d9d6f0-a045-11e6-9483-54d76a164384.png)
 
-Any environment variable provided using dashboard overwrites the environment variables provided in `container.json` of your service.
+**Using container.json**
+
+You can also do this locally by adding the variables to your `container.json` files like this:
+
+```application/json
+[
+	{
+		"env": {
+			"DATABASE_USER": "test",
+			"DATABASE_NAME": "testdb"
+		}
+	}
+]
+```
+
+<aside>
+<b>NOTE: Any environment variable provided using the dashboard overwrites the environment variables provided in <code>container.json</code> of your service.</b>
+</aside>
+
+To see the lists of available variables, go to the Environment Variables page of the individual services:
+
+ * [**Auth Env Variables**](/docs/auth/env-variables.html)
+ * [**Hosting Env Variables**](/docs/hosting/env-variables.html) 
 
 </article>
 
