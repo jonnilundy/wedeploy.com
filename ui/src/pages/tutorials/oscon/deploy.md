@@ -1,18 +1,31 @@
 ---
+buttonTitle: "My game is live!"
 description: "In this tutorial, you'll learn how to deploy a game in 2 minutes."
 layout: "tutorial"
 parentId: "oscon"
-time: 30
+time: 40
 title: "Deploy The Game"
-tutorialTitle: "OSCON Tutorial"
-weight: 3
+tutorialTitle: "OSCON 2017"
+weight: 5
 ---
 
-#### Choose the forked repo in your project 
+#### Select the fork 
 
-After getting redirected back to the deployment page, you can add the owner (you), repo (oscon-game), and branch (master) of the repo that you would like to deploy to this project.
+After logging in, you will get redirected back to the deployment page. 
 
-Select _Connect Repository_ and we will automatically start deploying the repository you chose.
+There you can add details about the repo you want to deploy.
+
+<ol>
+<li>Add your fork's</li>
+<ul>
+<li><strong>owner</strong> (you)</li>
+<li><strong>repo</strong> (oscon-game)</li>
+<li><strong>branch</strong> (master)</li>
+</ul>
+<li>Click <em>Connect Repository</em></li>
+</ol>
+
+Now WeDeploy will automatically start deploying your repo.
 
 <figure>
 	<img src="/images/tutorials/oscon/4-choose-repo.gif" alt="Choose Repo">
@@ -20,18 +33,14 @@ Select _Connect Repository_ and we will automatically start deploying the reposi
 
 #### Set home container
 
-In order to have a cleaner url for your game, we will set the home conatiner to `hosting`.
+In order to have a cleaner url for your game, we will set the home conatiner.
 
 
-1. Go to your project settings
-2. Under _Home Services_ select the hosting container
-3. Update Project
+1. Go to your project _Settings_
+2. Under _Home Services_, select the hosting container
+3. Click _Update Project_
 
 <figure>
 	<img src="/images/tutorials/oscon/5-home-container.gif" alt="Change home container">
 </figure>
-
-#### Play the game in your browser
-
-In the top left corner, click on the link (`<your-projec>.wedeploy.io`) next to your project id and start playing!
 
