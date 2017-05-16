@@ -28,8 +28,8 @@ Authenticating users with WeDeploy is super easy. This tutorial will walk you th
 	<li>Clone a sample Git repository</li>
 	<li>Add configuration files</li>
 	<li>Include the API Client</li>
-	<li>Add the API methods</li>
 	<li>Deploy the project</li>
+	<li>Add the API methods</li>
 	<li>Run the App</li>
 	<li>Start authenticate users</li>
 </ul>
