@@ -11,7 +11,7 @@ weight: 4
 
 #### Add Config Files
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to our Auth and Hosting Services in the repo we just cloned. 
+Every service folder must have a `container.json` file that configures the service. Let's add one to our Auth Service in the repo we just cloned. 
 
 ##### Auth 
 

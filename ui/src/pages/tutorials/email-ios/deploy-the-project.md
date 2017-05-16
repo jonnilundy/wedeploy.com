@@ -33,6 +33,8 @@ If it is your first time pushing to WeDeploy's git, you will need to enter the e
 
 Once you have pushed, WeDeploy will immediately start deploying your project.
 
+<aside>
+
 ###### <span class="icon-16-star"></span> Pro Tip
 
 You can always check the status of your deployment by going to the _overview_ section of your project's <a href="http://dashboard.wedeploy.com" target="_blank">dashboard</a>.
