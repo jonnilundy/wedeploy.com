@@ -15,7 +15,7 @@ Now the moment you have been waiting for - deployment!
 
 ###### Add a Git remote
 
-Open up your terminal and go to the `tutorial-data-web` folder. Then, add a git remote by running:
+Open up your terminal and go to the `tutorial-data-ios` folder. Then, add a git remote by running:
 
 ```xml
 git remote add wedeploy http://git.wedeploy.com/<your-project-id>.git
