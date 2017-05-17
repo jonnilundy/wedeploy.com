@@ -19,7 +19,7 @@ On monday, a couple of us from the WeDeploy team flew into Spain to start prepar
 
 **We could feel the excitement in the office as the day drew near.** 
 
-I mean honestly, who can pass up the opportunity to take a day to stop your day-to-day tasks and just play around with whatever creative dev project you want. 
+I mean honestly, who can pass up the opportunity of a free day to play around with whatever creative dev project you want? 
 
 But what were the rules? For this event, we simply asked each team to use WeDeploy in their projects. Other than that, they could build whatever they wanted in the nine hours available.
 
@@ -41,19 +41,19 @@ The ideas were ready, the teams were made, and the countdown was started. It was
 
 #### [Emoji Chat](https://www.youtube.com/watch?v=7iMfTvhB-38&list=PLKb_gn-WO_Ko30pgNP-gxTKKrsaAC-jlk&index=1)
 
-Emojis have done a lot to help us communitate with eachother in ways that words cannot. But what if we wanted to take our online communication to the next level. Hello Emoji Chat. Once you join the site, you will be assigned an emoji and you can start moving it around and interacted with the other emoji users, even sending classic text.
+Emojis have done a lot to help us communitate with eachother in ways that words cannot. But what if we wanted to take our online communication to the next level? Hello Emoji Chat. Once you join the site, you will be assigned an emoji and you can start moving it around and interacting with the other emoji users, even sending classic text.
 
 **What they used:** [WeDeploy Hosting](http://wedeploy.com/docs/hosting), [WeDeploy Data](http://wedeploy.com/docs/data)
 
 #### [Eyes to Run](https://www.youtube.com/watch?v=06kDmXkoo50&list=PLKb_gn-WO_Ko30pgNP-gxTKKrsaAC-jlk&index=2)
 
-Technology is doing great things in the world of helping the disabled, and this project was no different. This team created an app that paired up blind runners with non-blind partners so that they are able to pound the payment again. 
+Technology is doing great things in the world of helping the disabled, and this project was no different. This team created an app that paired up blind runners with non-blind partners so that they are able to pound the pavement again. 
 
 **What they used:** [WeDeploy Hosting](http://wedeploy.com/docs/hosting), [WeDeploy Data](http://wedeploy.com/docs/data), [WeDeploy Auth](http://wedeploy.com/docs/auth), [WeDeploy Java](http://wedeploy.com/docs/other/java.html)
 
 #### [Multi-Device Pizza Ordering](https://www.youtube.com/watch?v=5AoDiNM1kbI&list=PLKb_gn-WO_Ko30pgNP-gxTKKrsaAC-jlk&index=3)
 
-Ever been sitting on your couch and wanted to order a pizza but you don't have your computer with you or you want to be notified from your phone when the delivery is arriving. We have good news for you, this team created a multi-device system for order pizza, going from a Apple TV app, to your cell phone, to the deliverer's cell phone, to your hungry stomache. 
+Ever been sitting on your couch and wanted to order a pizza but you don't have your computer with you or you want to be notified from your phone when the delivery is arriving? We have good news for you, this team created a multi-device system for ordering pizza, going from a Apple TV app, to your cell phone, to the deliverer's iPad, and then of course, to your hungry stomache. 
 
 **What they used:** [WeDeploy Data](http://wedeploy.com/docs/data)
 
@@ -63,9 +63,9 @@ This team had an exciting day. Although they did not have a finished prototype a
 
 #### [Salmorejo](https://www.youtube.com/watch?v=OcUhyNp7KFY&list=PLKb_gn-WO_Ko30pgNP-gxTKKrsaAC-jlk&index=5)
 
-There is a workplace efficientcy technique in spain called Salmorejo that basically goes like this. You set a timer for 25 min and place a signal on your desk to notify your coworkers that you are busy. Then you work only on one project during that time, and after the timer is done, you can tend to other smaller tasks like meetings, emails, and coffee breaks. The problem is that sometimes you leave the signal up or maybe never put it there in the first place so the others at work don't know if they can interupt you or not. 
+There is a workplace efficiency technique in spain called Pomodoro that basically goes like this. You set a timer for 25 min and place a signal on your desk to notify your coworkers that you are busy. Then you work only on one project during that time, and after the timer is done, you can tend to other smaller tasks like meetings, emails, and coffee breaks. The problem is that sometimes you leave the signal up or maybe never put it there in the first place so the others at work don't know if they can interupt you or not. 
 
-The good news is that this project fixes those problems with a slack notification integrations and a designated site to start and track the Salmorejos that are happening in your office.
+The good news is that this project fixes those problems with a slack notification integration and a designated site to start and track the Salmorejos that are happening in your office.
 
 **What they used:** [WeDeploy Hosting](http://wedeploy.com/docs/hosting), [WeDeploy Data](http://wedeploy.com/docs/data)
 
@@ -73,7 +73,7 @@ The good news is that this project fixes those problems with a slack notificatio
     <img src="../images/blog/post-10--0.jpg" alt="Liferay Madrid hack day">
 </figure>
 
-The day was a huge successful and we were impressed and inspired by what each team produced!
+The day was a huge success, and we were impressed and inspired by what each team produced!
 
 We're also so thankful for the hospitality of the Madrid office and the courageous developers in the hack day that pushed the limits and tried things they weren't sure they were capable off. 
 
