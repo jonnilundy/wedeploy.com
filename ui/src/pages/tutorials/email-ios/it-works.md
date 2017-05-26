@@ -1,5 +1,5 @@
 ---
-title: "It works"
+title: "It Works"
 description: "In this section, you'll learn how to send an email on iOS using the WeDeploy API Client."
 buttonTitle: "I sent an email"
 tutorialTitle: "Getting started with WeDeploy Email on iOS"
