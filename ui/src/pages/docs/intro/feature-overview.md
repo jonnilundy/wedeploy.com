@@ -74,4 +74,4 @@ The **[WeDeploy Command-line Interface (CLI)](/docs/intro/using-the-command-line
 
 ## What's next?
 
-* Learn more about [how it works](/docs/intro/how-it-works.html).
+* Learn more about [Deploying your first WeDeploy app](/docs/intro/deploying.html).

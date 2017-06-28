@@ -53,7 +53,7 @@ Below is a few examples of a `container.json` for the Java container.
 	"id": "java",
 	"type": "wedeploy/java:latest",
 	"hooks": {
-  	"build": "gradle -Dorg.gradle.native=false clean build -x test"
+  		"build": "gradle -Dorg.gradle.native=false clean build -x test"
   }
 }
 ```
@@ -62,7 +62,7 @@ Below is a few examples of a `container.json` for the Java container.
 	"id": "java",
 	"type": "wedeploy/java:latest",
 	"hooks": {
-  	"build": "mvn package"
+  		"build": "mvn package"
   }
 }
 ```
@@ -71,7 +71,7 @@ Below is a few examples of a `container.json` for the Java container.
 	"id": "java",
 	"type": "wedeploy/java:latest",
 	"hooks": {
-  	"build": "ant build"
+  		"build": "ant build"
   }
 }
 ```
