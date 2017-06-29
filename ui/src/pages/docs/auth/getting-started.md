@@ -42,7 +42,7 @@ Want to see the whole process of deploying an app with WeDeploy Auth?
 
 <aside>
 
-All WeDeploy projects use a consistant file structure and configuration files to deploy apps with Git or GitHub. Learn more on our <strong><a href="/docs/intro/deploying.html">Deploying Page</a></strong>.
+All WeDeploy projects use a consistant file structure and configuration files to deploy apps with Git or GitHub. Learn more on our <strong><a href="/docs/intro/how-it-works.html">How It Works Page</a></strong>.
 
 </aside>
 
