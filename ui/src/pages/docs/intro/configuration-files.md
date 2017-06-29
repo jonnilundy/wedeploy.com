@@ -121,4 +121,4 @@ For a full list of supported attributes, go to [Configuring Data](/docs/data/con
 
 ## What's next?
 
-* Learn more about using [the WeDeploy Dashboard](/docs/intro/using-the-dashboard.html).
+* Learn more about using [the WeDeploy Console](/docs/intro/using-the-console.html).

@@ -93,7 +93,7 @@ WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io');
 
 ###### <span class="icon-16-alert"></span> Attention
 
-You can only point to your cloud url (`.io`) once you have initializing your Data service in your WeDeploy project. To do this, you can either deploy a project with <a href="/docs/intro/how-it-works.html">the necessary files</a> to initialize an Data container, or create one directly from your project's <a href="http://dashboard.wedeploy.com">dashboard</a>.
+You can only point to your cloud url (`.io`) once you have initializing your Data service in your WeDeploy project. To do this, you can either deploy a project with <a href="/docs/intro/how-it-works.html">the necessary files</a> to initialize an Data container, or create one directly from your project's <a href="https://console.wedeploy.com">console</a>.
 
 </aside>
 

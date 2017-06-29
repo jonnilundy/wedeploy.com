@@ -1,6 +1,6 @@
 ---
-title: "Using the Dashboard"
-description: "In this section, you'll learn how to deploy an application using WeDeploy Dashboard."
+title: "Using the Console"
+description: "In this section, you'll learn how to deploy an application using WeDeploy Console."
 headerTitle: "Intro"
 layout: "guide"
 weight: 5
@@ -14,17 +14,17 @@ weight: 5
 
 ## Create an account
 
-First you need to create a WeDeploy account by signing up through the dashboard [signup page](http://dashboard.wedeploy.com/signup).
+First you need to create a WeDeploy account by signing up through the Console [signup page](https://console.wedeploy.com/signup).
 
 </article>
 
 <article id="2">
 
-## Access your dashboard
+## Access your Console
 
-As the main page, the dashboard will list all your projects and status of availability in the server. In the Dashboard, click in New Project .
+As the main page, the Console will list all your projects and status of availability in the server. In the Console, click in New Project .
 
-![Dashboard](https://cloud.githubusercontent.com/assets/301291/18655293/798013ae-7e9c-11e6-8f7f-4d029d73d2bb.png)
+![Console](https://cloud.githubusercontent.com/assets/301291/18655293/798013ae-7e9c-11e6-8f7f-4d029d73d2bb.png)
 
 </article>
 

@@ -17,7 +17,7 @@ weight: 8
 A project may have numerous environments: a production app, a staging app, and any number of test and local environments maintained by many different developers. However, the code is the same. In order to make it happen, each environment would have specific configurations.
 
 A good example would be credentials for the database, where each environment has its own credentials. The ideal scenario for handling this scenario, would be using Environment variables, in order to set up different configurations for different environment using the same code. In a traditional development proccess, you would speciffy the 
-configurations in different files. On WeDeploy you can take advantage of Environment Variables using the dashboard.
+configurations in different files. On WeDeploy you can take advantage of Environment Variables using the Console.
 
 </article>
 
@@ -27,7 +27,7 @@ configurations in different files. On WeDeploy you can take advantage of Environ
 
 WeDeploy can help you to configure environment variables for your services. Each service can have its own group of environment variables and can be configured follwing these steps:
 
-**Using the Dashboard**
+**Using the Console**
 
 1) Go to the specific Service page.
 2) Click on Environment.
@@ -55,7 +55,7 @@ You can also do this locally by adding the variables to your `container.json` fi
 
 ###### <span class="icon-16-alert"></span> Attention
 
-Any environment variable provided using the dashboard overwrites the environment variables in the `container.json` of your source code.
+Any environment variable provided using the Console overwrites the environment variables in the `container.json` of your source code.
 
 </aside>
 

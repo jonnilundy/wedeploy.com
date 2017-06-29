@@ -100,7 +100,7 @@ After retrieving the client id and client secret you can configure them as envir
 }
 ```
 
-Or you can add those environment variables using the dashboard.
+Or you can add those environment variables using the Console.
 
 ![Project Container Environment](https://cloud.githubusercontent.com/assets/1435318/20008152/2ceabade-a27e-11e6-9c86-435fc1c12412.png)
 
