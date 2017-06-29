@@ -20,7 +20,7 @@ First take a look at the text search. It's a simple, yet very powerful way to fi
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match('title', "Sith's revenge")
 	.get('movies')
 	.then(function(movies) {
@@ -29,7 +29,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match(field: "title", pattern: "Sith's revenge")
 	.get(resourcePath: "movies")
 	.then { movies in
@@ -38,7 +38,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(match("title", "Sith's revenge"))
 	.get("movies")
 	.execute();
@@ -55,7 +55,7 @@ We can also use simple text operators in our match:
 ```javascript
 // we can run this
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match('title', '(jedi | force) -return')
 	.get('movies')
 	.then(function(movies) {
@@ -64,7 +64,7 @@ WeDeploy
 
 // or this
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match('title', 'awake*')
 	.get('movies')
 	.then(function(movies) {
@@ -73,7 +73,7 @@ WeDeploy
 
 // or even this
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match('title', 'wakens~')
 	.get('movies')
 	.then(function(movies) {
@@ -83,7 +83,7 @@ WeDeploy
 ```swift
 // we can run this
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match(field: "title", pattern: "(jedi | force) -return")
 	.get(resourcePath: "movies")
 	.then { movies in
@@ -92,7 +92,7 @@ WeDeploy
 
 // or this
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match(field: "title", pattern: "awake*")
 	.get(resourcePath: "movies")
 	.then { movies in
@@ -101,7 +101,7 @@ WeDeploy
 
 // or even this
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.match(field: "title", pattern: "wakens~")
 	.get(resourcePath: "movies")
 	.then { movies in
@@ -111,21 +111,21 @@ WeDeploy
 ```text/x-java
 // we can run this
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(match("title", "(jedi | force) -return"))
 	.get("movies")
 	.execute();
 
 // or this
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(match("title", "awake*"))
 	.get("movies")
 	.execute();
 
 // or even this
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(match("title", "awake~"))
 	.get("movies")
 	.execute();
@@ -143,7 +143,7 @@ So far we are still just filtering data with filters. We can do so much more tha
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.similar('title', 'The attack an awaken Jedi uses to strike a Sith is pure force!')
 	.search('movies')
 	.then(function(movies) {
@@ -152,7 +152,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.similar(field: "title", query: "The attack an awaken Jedi uses to strike a Sith is pure force!")
 	.search(resourcePath: "movies")
 	.then { movies in
@@ -161,7 +161,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(similar("title", "The attack an awaken Jedi uses to strike a Sith is pure force!"))
 	.search("movies")
 	.execute();
@@ -211,7 +211,7 @@ Want more? Well, let's make things even easier for the user! Adding one entry to
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.similar('title', 'The attack an awakened Jedi uses to strike a Sith is pure force!')
 	.highlight('title')
 	.search('movies')
@@ -221,7 +221,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.similar(field: "title", query: "The attack an awaken Jedi uses to strike a Sith is pure force!")
 	.highlight("title")
 	.search(resourcePath: "movies")
@@ -231,7 +231,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(similar("title", "The attack an awakened Jedi uses to strike a Sith is pure force!"))
 	.highlight("title")
 	.search("movies")
@@ -280,7 +280,7 @@ The third search feature is also quite simple, but can be applied to generate me
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.lt('year', 1990)
 	.aggregate('Old Movies', 'rating', 'avg')
 	.count()
@@ -291,7 +291,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.lt(field: "year", value: 1990)
 	.aggregate(name: "Old movies", field: "rating", op: "avg")
 	.count()
@@ -302,7 +302,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(lt("year", 1990))
 	.aggregate(avg("Old Movies", "rating"))
 	.count()
@@ -349,7 +349,7 @@ If we want to inform the server of the data type of a collection field before it
 
 ```javascript
 WeDeploy
-	.url('http://<serviceID>.<projectID>.wedeploy.io')
+	.url('https://<serviceID>-<projectID>.wedeploy.io')
 	.post({
 		"places": {
 			"location": "geo_point"
@@ -358,7 +358,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.url("http://<serviceID>.<projectID>.wedeploy.io")
+	.url('https://<serviceID>-<projectID>.wedeploy.io')
 	.post(body: [
 		"places" : [
 			"location" : "geo_point"
@@ -373,7 +373,7 @@ JSONObject placesJsonObject = new JSONObject()
 	.put("places", locationJsonObject);
 
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.create("", placesJsonObject);
 ```	
 
@@ -383,7 +383,7 @@ So, we mapped a field called location, in the collection places, as representing
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.any('category', 'cinema')
 	.distance('location', '51.5031653,-0.1123051', '1mi')
 	.get('places')
@@ -393,7 +393,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.any(field: "category", value: ["cinema"])
 	.distance(field: "location", latitude: 51.5031653, longitude: -0.1123051, distance: .mile(1))
 	.get(resourcePath: "places")
@@ -403,7 +403,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(any("category", "cinema").and(distance("location", "51.5031653,-0.1123051", "1mi")))
 	.get("places")
 	.execute();

@@ -69,7 +69,7 @@ By default, all swift api requests returns a promise like below.
 
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get(resourcePath: "movies")
 	.then { movie -> Void in
 		print(movie)
@@ -81,7 +81,7 @@ You are also able to return a callback or observable. These two methods are avai
 ```swift
 // toCallback converts a promise into a callback
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get(resourcePath: "movies")
 	.toCallback { movies, error in
 		// here you can check the error or the response
@@ -89,7 +89,7 @@ WeDeploy
 
 // toObservable converts a promise into an observable
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get(resourcePath: "movies")
 	.toObservable()
 	.subscribe(
@@ -130,7 +130,7 @@ Then, you are able to synchronously fire requests to WeDeploy by calling `execut
 
 ```text/x-java
 weDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.get("movies")
 	.execute();
 ```
@@ -139,7 +139,7 @@ You can also fire asynchronous requests by specifying a Callback to the `execute
 
 ```text/x-java
 weDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.get("movies")
 	.execute(new Callback() {
 		public void onSuccess(Response response) {
@@ -156,7 +156,7 @@ The WeDeploy Android API is RxJava 2 compatible. This means that you can convert
 
 ```text/x-java
 weDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.get("movies")
 	.asSingle()
 	.subscribeOn(Schedulers.io())

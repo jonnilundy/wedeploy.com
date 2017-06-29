@@ -24,7 +24,7 @@ Writing new data is as simple as sending a JSON.
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create('movies', {
 		"title": "Star Wars IV",
 		"year": 1977,
@@ -35,7 +35,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create(resource: "movies", object: [
 		"title" : "Star Wars IV",
 		"year" : 1977,
@@ -52,7 +52,7 @@ JSONObject movieJsonObject = new JSONObject()
 	.put("rating", 8.7);
 
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.create("movies", movieJsonObject)
 	.execute();
 ```
@@ -83,7 +83,7 @@ You just need to use an array instead an object as the second param.
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create('movies', [
 		{
 			"title": "Star Wars III",
@@ -101,7 +101,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create(resource: "movies", object: [
 	[
 		"title" : "Star Wars III",
@@ -134,7 +134,7 @@ JSONArray moviesJsonArray = new JSONArray()
 	.put(movie2JsonObject);
 
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.create("movies", moviesJsonArray)
 	.execute();
 ```
@@ -168,7 +168,7 @@ WeDeploy Data service is really flexible in therms of data structure. You're abl
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create('movies', [
 		{
 			"title": "Star Wars I",
@@ -182,7 +182,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.create(resource: "movies", object: [
 		"title": "Star Wars I",
 		"obs": "First in ABC order",
@@ -201,7 +201,7 @@ JSONObject movieJsonObject = new JSONObject()
 	.put("rating", 9.0);
 
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.create("movies", movieJsonObject)
 	.execute();
 ```
@@ -233,7 +233,7 @@ The URL we just created stored a new document in our app's service inside the "m
 For example, to reference the newly created Star Wars rating, we can use the path:
 
 ```text
-http://<serviceID>.<projectID>.wedeploy.io/movies/115992383516607958/rating
+https://<serviceID>-<projectID>.wedeploy.io/movies/115992383516607958/rating
 ```
 
 </article>

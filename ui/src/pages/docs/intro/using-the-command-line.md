@@ -102,13 +102,13 @@ we <command> --project <projectID> --container <serviceID>
 and the friendly host style:
 
 ```xml
-we <command> <serviceID>.<projectID>.<remote address>
+we <command> <serviceID>-<projectID>.<remote address>
 ```
 
 or even
 
 ```xml
-we <command> <serviceID>.<projectID> --remote <remote>
+we <command> <serviceID>-<projectID> --remote <remote>
 ```
 
 For the local cloud, just don't add a `--remote` or `<remote address>` value like in:
@@ -151,7 +151,7 @@ we log --project <projectID> --container <serviceID>
 or with a friendly host style like
 
 ```xml
-we log <serviceID>.<projectID>.wedeploy.me
+we log <serviceID>-<projectID>.wedeploy.me
 ```
 
 ##### Examples:

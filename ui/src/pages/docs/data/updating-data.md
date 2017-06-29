@@ -24,7 +24,7 @@ Updating existing data is as simple as sending a JSON.
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.update('movies/115992383516607958', {
 		"rating": 9.1
 	}).then(function(movie) {
@@ -33,7 +33,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.update(resourcePath: "movies/115992383516607958", updatedAttributes: [
 		"rating": 9.1
 	])
@@ -46,7 +46,7 @@ JSONObject movieJsonObject = new JSONObject()
 	.put("rating", 9.1);
 
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.update("movies/115992383516607958", movieJsonObject)
 	.execute();
 ```

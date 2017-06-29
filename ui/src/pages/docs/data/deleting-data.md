@@ -23,7 +23,7 @@ By default, all the operation access to your database are restricted so only aut
 To delete a field, document, or the entire collection, we use the DELETE method:
 
 ```javascript
-var data = WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.io');
+var data = WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io');
 
 data.delete('movies/star_wars_v/title');
 
@@ -32,7 +32,7 @@ data.delete('movies/star_wars_v');
 data.delete('movies');
 ```
 ```swift
-let data = WeDeploy.data("http://<serviceID>.<projectID>.wedeploy.io")
+let data = WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io')
 
 data.delete(collectionOrResourcePath: "movies/star_wars_v/title")
 
@@ -41,7 +41,7 @@ data.delete(collectionOrResourcePath: "movies/star_wars_v")
 data.delete(collectionOrResourcePath: "movies")
 ```
 ```text/x-java
-WeDeployData data = WeDeploy.data("http://datademo.wedeploy.io");
+WeDeployData data = WeDeploy.data('https://data-datademo.wedeploy.io');
 
 data.delete("movies/star_wars_v/title");
 

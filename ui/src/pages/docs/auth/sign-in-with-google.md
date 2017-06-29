@@ -17,7 +17,7 @@ weight: 5
 To sign in by redirecting to the sign-in page, call `signInWithRedirect`:
 
 ```javascript
-var auth = WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
+var auth = WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io');
 
 var provider = new auth.provider.Google();
 provider.setProviderScope("email");
@@ -29,7 +29,7 @@ auth.onSignIn(function(user) {
 });
 ```
 ```swift
-let auth = WeDeploy.auth("http://<serviceID>.<projectID>.wedeploy.io");
+let auth = WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io');
 let provider = AuthProvider(provider: .google, redirectUri: "my-app://")
 provider.providerScope = "email"
 
@@ -37,7 +37,7 @@ auth.signInWithRedirect(provider: provider) { (user, error) in
 	// Fires when user is signed in after redirect.
 }
 
-//Add WeDeploy.auth("http://<serviceID>.<projectID>.wedeploy.io").handle(url: url) in AppDelegate's open url method	
+//Add WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io').handle(url: url) in AppDelegate's open url method	
 ```
 ```text/x-java
 // In AndroidManifest.xml, declare an intent filter for the Activity you want to receive the token.
@@ -80,8 +80,8 @@ Create a client id and client secret by [registering your application](https://d
 
 <aside>
 
-Please be sure to add the callback url `http://<auth-container-id>.<project-id>.wedeploy.io/oauth/token` in your application.
-For local development, use `wedeploy.me` instead. To use with custom domains you can change the sufix `<project-id>.wedeploy.io` for your domain.
+Please be sure to add the callback url `https://<authContainerID>-<projectID>.wedeploy.io/oauth/token` in your application.
+For local development, use `wedeploy.me` instead. To use with custom domains you can change the sufix `<projectID>.wedeploy.io` for your domain.
 
 </aside>
 

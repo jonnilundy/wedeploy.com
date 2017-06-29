@@ -18,7 +18,7 @@ To sign in by email and password, call `signInWithEmailAndPassword`:
 
 ```javascript
 WeDeploy
-	.auth('http://<serviceID>.<projectID>.wedeploy.io')
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.signInWithEmailAndPassword("user@domain.com", "password")
 	.then(function(user) {
 		// User is signed in.
@@ -29,7 +29,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.auth("http://<serviceID>.<projectID>.wedeploy.io")
+	.auth('https://<serviceID>-<projectID>.wedeploy.io')
 	.signInWith(username: "user@domain.com", password: "password")
 	.then { auth -> Void in
 		// User is signed in.

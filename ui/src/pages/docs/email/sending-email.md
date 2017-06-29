@@ -20,7 +20,7 @@ In order to send emails, we have to make a `POST` request to `/emails` passing s
 
 ```javascript
 WeDeploy
-	.url('http://<serviceID>.<projectID>.wedeploy.io/emails')
+	.url('https://<serviceID>-<projectID>.wedeploy.io/emails')
 	.form('from', 'from@domain.com')
 	.form('to', 'to@domain.com')
 	.form('subject', 'Hi there!')
@@ -34,7 +34,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io")
+	.email('https://<serviceID>-<projectID>.wedeploy.io')
 	.from(self.username)
 	.to(self.username)
 	.subject("subject")
@@ -49,7 +49,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io/emails")
+	.email("https://<serviceID>-<projectID>.wedeploy.io/emails")
 	.from("from@domain.com")
 	.to("to@domain.com")
 	.subject("Hi there!")

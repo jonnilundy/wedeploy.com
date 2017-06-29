@@ -14,7 +14,7 @@ weight: 9
 
 ## Introduction
 
-To make your app accessible right away, WeDeploy makes any project accessible via its project domain, which looks like `<serviceID>.<projectID>.wedeploy.io`. If you have a project named `project` with a service named `web`, the WeDeploy project domain would be `web.project.wedeploy.io`. Every project in WeDeploy supports one or more custom domains.
+To make your app accessible right away, WeDeploy makes any project accessible via its project domain, which looks like `<serviceID>-<projectID>.wedeploy.io`. If you have a project named `project` with a service named `web`, the WeDeploy project domain would be `web-project.wedeploy.io`. Every project in WeDeploy supports one or more custom domains.
 
 </article>
 

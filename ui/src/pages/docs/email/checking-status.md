@@ -18,7 +18,7 @@ In order to check if an email was sent or not, we can use the email ID, e.g. `12
 
 ```javascript
 WeDeploy
-	.url('http://<serviceID>.<projectID>.wedeploy.io/emails/<emailID>/status')
+	.url('https://<serviceID>-<projectID>.wedeploy.io/emails/<emailID>/status')
 	.get()
 	.then(function(response) {
 		console.log('Email status:', response.body());
@@ -28,7 +28,7 @@ WeDeploy
 	});
 ```
 ```swift
-WeDeploy.email("http://<serviceID>.<projectID>.wedeploy.io")
+WeDeploy.email('https://<serviceID>-<projectID>.wedeploy.io')
 	.checkEmailStatus(id: "202605176596079530")
 	.then { status in
 		print("Email status: \(status)")
@@ -39,7 +39,7 @@ WeDeploy.email("http://<serviceID>.<projectID>.wedeploy.io")
 ```
 ```text/x-java
 WeDeploy
-	.email("http://<serviceID>.<projectID>.wedeploy.io")
+	.email('https://<serviceID>-<projectID>.wedeploy.io')
 	.checkEmailStatus("<emailID>")
 	.execute();
 ```

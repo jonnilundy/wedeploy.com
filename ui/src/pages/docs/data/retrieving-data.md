@@ -18,7 +18,7 @@ Reading data from our storage takes only 3 lines of code.
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get('movies/star_wars_v')
 	.then(function(movie) {
 		console.log(movie);
@@ -26,7 +26,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get(resourcePath: "movies/star_wars_v")
 	.then { movie in
 		print(movie)
@@ -34,7 +34,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.get("movies/star_wars_v")
 	.execute();
 ```
@@ -54,7 +54,7 @@ We can also get any field value using the full path:
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get('movies/star_wars_v/title')
 	.then(function(title) {
 		console.log(title);
@@ -62,7 +62,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.get(resourcePath: "movies/star_wars_v/title")
 	.then { (movie: String) in // You have to specify the type here to allow compiler infer type
 		print(movie)
@@ -70,7 +70,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.get("movies/star_wars_v/title")
 	.execute();
 ```
@@ -78,7 +78,7 @@ WeDeploy
 The full path returns the raw content in the response body:
 
 Star Wars: Episode V - The Empire Strikes Back
-Requesting the entire movies collection using `curl -X "GET" "http://<serviceID>.<projectID>.wedeploy.io/movies"` results in the first 10 documents stored:
+Requesting the entire movies collection using `curl -X "GET" "https://<serviceID>-<projectID>.wedeploy.io/movies"` results in the first 10 documents stored:
 
 ```javascript
 [
@@ -102,7 +102,7 @@ The result is ordered by document id, as we can see in the list above. We can se
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.orderBy('rating', 'desc')
 	.get('movies')
 	.then(function(movies) {
@@ -111,7 +111,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.orderBy(field: "rating", order: .DESC)
 	.get(resourcePath: "movies")
 	.then { movies in
@@ -120,7 +120,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.orderBy("rating", SortOrder.DESCENDING)
 	.get("movies")
 	.execute();
@@ -152,7 +152,7 @@ In addition to sorting the results, we can also apply filters using the followin
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.where('year', '<', 2000)
 	.or('rating', '>', 8.5)
 	.get('movies')
@@ -162,7 +162,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.where(field: "year", op: "<", value: 2000)
 	.or(field: "rating", op: ">", value: 8.5)
 	.get(resourcePath: "movies")
@@ -172,7 +172,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(lt("year", 2000).or(gt("rating", 8.5)))
 	.get("movies")
 	.execute();
@@ -197,7 +197,7 @@ We can also paginate the result using the 'limit' and 'offset' properties. Combi
 
 ```javascript
 WeDeploy
-	.data('http://<serviceID>.<projectID>.wedeploy.io')
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.where('year', '>', 2000)
 	.orderBy('rating')
 	.limit(2)
@@ -209,7 +209,7 @@ WeDeploy
 ```
 ```swift
 WeDeploy
-	.data("http://<serviceID>.<projectID>.wedeploy.io")
+	.data('https://<serviceID>-<projectID>.wedeploy.io')
 	.where(field: "year", op: "<", value: 2000)
 	.orderBy(field: "rating", order: .ASC)
 	.limit(2)
@@ -221,7 +221,7 @@ WeDeploy
 ```
 ```text/x-java
 WeDeploy
-	.data("http://datademo.wedeploy.io")
+	.data('https://data-datademo.wedeploy.io')
 	.where(gt("year", 2000))
 	.orderBy("rating")
 	.limit(2)

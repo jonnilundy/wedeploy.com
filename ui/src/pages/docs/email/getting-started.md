@@ -68,25 +68,25 @@ You can start sending emails by referencing the URL of your Email service within
 **Local Development (.me)**
 
 ```javascript
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.email('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```swift
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.email('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```text/x-java
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.email('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 
 **Cloud Development (.io)**
 
 ```javascript
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.email('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```swift
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.email('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```text/x-java
-WeDeploy.email('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.email('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 
 <aside>

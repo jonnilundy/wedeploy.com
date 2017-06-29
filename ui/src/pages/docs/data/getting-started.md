@@ -68,25 +68,25 @@ You can start saving and fetching data by referencing the URL of your Data servi
 **Local Development (.me)**
 
 ```javascript
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.data('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```swift
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.data('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```text/x-java
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.data('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 
 **Cloud Development (.io)**
 
 ```javascript
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```swift
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```text/x-java
-WeDeploy.data('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.data('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 
 <aside>

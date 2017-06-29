@@ -68,25 +68,25 @@ You can start authenticating users by referencing the URL of your Auth service w
 **Local Development (.me)**
 
 ```javascript
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.auth('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```swift
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.auth('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 ```text/x-java
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.me');
+WeDeploy.auth('http://<serviceID>-<projectID>.wedeploy.me');
 ```
 
 **Cloud Development (.io)**
 
 ```javascript
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```swift
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 ```text/x-java
-WeDeploy.auth('http://<serviceID>.<projectID>.wedeploy.io');
+WeDeploy.auth('https://<serviceID>-<projectID>.wedeploy.io');
 ```
 
 <aside>
