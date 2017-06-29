@@ -3,7 +3,7 @@ title: "Configuration Files"
 description: "This is an overview of how WeDeploy uses JSON files to help you to configure your project."
 headerTitle: "Intro"
 layout: "guide"
-weight: 4
+weight: 5
 ---
 
 ### {$page.title}

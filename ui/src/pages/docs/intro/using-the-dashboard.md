@@ -3,7 +3,7 @@ title: "Using the Dashboard"
 description: "In this section, you'll learn how to deploy an application using WeDeploy Dashboard."
 headerTitle: "Intro"
 layout: "guide"
-weight: 5
+weight: 6
 ---
 
 ### {$page.title}
