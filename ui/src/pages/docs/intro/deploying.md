@@ -42,11 +42,11 @@ Now the moment you've been waiting for. With your terminal open to the project y
 
 ## Continuous Deployment
 
-Continuous Deployment is powered by our handy [GitHub](htps://github.com) integration that triggers a deploy on your project everytime you push changes to the designated repo branch. It is super easy to setup and greatly speeds up your development flow.
+Continuous Deployment is powered by our handy [GitHub](htps://github.com) integration that triggers a deploy on your project every time you push changes to the designated repo branch. It is super easy to setup and greatly speeds up your development flow.
 
 ##### 1. Setup project
 
-To Start, create a new folder wherever you want to your project to live. Inside that folder, you must create a new file and name it `container.json`. This is the primary config file that you will use in all your WeDeploy projects to designate what service you want to deploy (and some other [fun configurations](/docs/intro/configuration-files.html)). 
+To start, create a new folder wherever you want your project to live. Inside that folder, you must create a new file and name it `container.json`. This is the primary config file that you will use in all your WeDeploy projects to designate what service you want to deploy (and some other [fun configurations](/docs/intro/configuration-files.html)). 
 
 Inside that `container.json`, paste this code.
 
@@ -59,7 +59,7 @@ Inside that `container.json`, paste this code.
 
 ##### 2. Add files and push
 
-So you're empty project is ready to deploy, but we want to make it more interesting by **adding our own static files** for WeDeploy to serve. 
+So your empty project is ready to deploy, but we want to make it more interesting by **adding our own static files** for WeDeploy to serve. 
 
 * **If you already have a project** of static HTML, CSS, and JS files, you can paste those into the folder (making sure that your `index.html` is on the same folder level as the `container.json`).
 
