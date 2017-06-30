@@ -22,7 +22,7 @@ class Newsletter extends Component {
 	}
 
 	sendSubscriptionToWeDeploy(userEmail) {
-		return WeDeploy.data('https://db-wedeploy.wedeploy.sh')
+		return WeDeploy.data('https://db-wedeploy.wedeploy.io')
 			.create('newsletter', {
 				email: userEmail,
 				timestamp: new Date().toISOString()
