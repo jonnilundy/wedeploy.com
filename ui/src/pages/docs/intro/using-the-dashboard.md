@@ -24,7 +24,7 @@ First you need to create a WeDeploy account by signing up through the dashboard 
 
 As the main page, the dashboard will list all your projects and status of availability in the server. In the Dashboard, click in New Project .
 
-![Dashboard](https://cloud.githubusercontent.com/assets/301291/18655293/798013ae-7e9c-11e6-8f7f-4d029d73d2bb.png)
+![Dashboard](/images/docs/intro/using-the-dashboard--dashboard.png)
 
 </article>
 
@@ -34,7 +34,7 @@ As the main page, the dashboard will list all your projects and status of availa
 
 You are able to organize your services by project. Select a project ID and click in Create Project.
 
-![New Project](https://cloud.githubusercontent.com/assets/301291/18656444/0409e49c-7ea6-11e6-8961-eeccd4deab43.png)
+![New Project](/images/docs/intro/using-the-dashboard--new-project.png)
 
 </article>
 
@@ -44,7 +44,7 @@ You are able to organize your services by project. Select a project ID and click
 
 Open your project by clicking on your project domain.
 
-![Project Container List](https://cloud.githubusercontent.com/assets/301291/18656506/7e3d873c-7ea6-11e6-945b-2da9ba801c3e.png)
+![Project Container List](/images/docs/intro/using-the-dashboard--project-container-list.png)
 
 </article>
 
@@ -54,7 +54,7 @@ Open your project by clicking on your project domain.
 
 Projects can have more than one service. In this example we're going to deploy a static website.
 
-![Install Container](https://cloud.githubusercontent.com/assets/301291/18655453/c83e2a66-7e9d-11e6-8440-673e3781335b.png)
+![Install Container](/images/docs/intro/using-the-dashboard--install-container.png)
 
 </article>
 
@@ -63,7 +63,7 @@ Projects can have more than one service. In this example we're going to deploy a
 ## Select a service type
 In this tutorial we're going to use the WeDeploy Hosting in order to host a static project.
 
-![Select a Container Type](https://cloud.githubusercontent.com/assets/301291/18656521/9f3392b0-7ea6-11e6-9d05-29c68a657f6d.png)
+![Select a Container Type](/images/docs/intro/using-the-dashboard--select-a-container-type.png)
 
 </article>
 
@@ -71,7 +71,7 @@ In this tutorial we're going to use the WeDeploy Hosting in order to host a stat
 
 ## Fill in the ID click on install service
 
-![Install Container Form](https://cloud.githubusercontent.com/assets/301291/18656546/cac3682e-7ea6-11e6-8e24-354a1df99ea0.png)
+![Install Container Form](/images/docs/intro/using-the-dashboard--install-container-form.png)
 
 </article>
 
@@ -79,7 +79,7 @@ In this tutorial we're going to use the WeDeploy Hosting in order to host a stat
 
 ## The container is going to be up and running
 
-![Container Up and Running](https://cloud.githubusercontent.com/assets/301291/18656561/f076a57c-7ea6-11e6-9d9d-aa288ca72135.png)
+![Container Up and Running](/images/docs/intro/using-the-dashboard--container-up-and-running.png)
 
 </article>
 
@@ -88,7 +88,7 @@ In this tutorial we're going to use the WeDeploy Hosting in order to host a stat
 ## Access the URL generated for your service
 Now that you installed the boilerplate, in the service screen is possible to see the status of the service and its URL. Click on the URL to copy to your clipboard and open that in a new tab in your browser.
 
-![URL Generated](https://cloud.githubusercontent.com/assets/301291/18656570/0e5adc7a-7ea7-11e6-8dd8-74f3697b520f.png)
+![URL Generated](/images/docs/intro/using-the-dashboard--url-generated.png)
 
 </article>
 
@@ -97,7 +97,7 @@ Now that you installed the boilerplate, in the service screen is possible to see
 ## It works!
 That's it! Using a sofisticated Loadbalancer system and service discovering, WeDeploy automatically creates a URL and points that to your container.
 
-![URL Generated](https://cloud.githubusercontent.com/assets/301291/17796616/b2ca3fd4-6576-11e6-8e18-85423f206b94.jpg)
+![URL Generated](/images/docs/intro/using-the-dashboard--it-works.png)
 
 </article>
 

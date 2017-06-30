@@ -30,7 +30,7 @@ To make a project accessible via one or more non-WeDeploy domain names, you must
 3. Click in Update Project.
 4. Update the domain DNS to point to the project WeDeploy domain (`<projectID>.wedeploy.io`).
 
-![settings](https://cloud.githubusercontent.com/assets/301291/19607402/73aca3b6-977e-11e6-82d6-e3374d3aa6ed.png)
+![settings](/images/docs/intro/custom-domains--settings.png)
 
 </article>
 

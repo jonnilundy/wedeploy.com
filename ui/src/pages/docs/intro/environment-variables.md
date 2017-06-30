@@ -34,7 +34,7 @@ WeDeploy can help you to configure environment variables for your services. Each
 3) Add your keys and values.
 4) Click on Update Service.
 
-![envvar](https://cloud.githubusercontent.com/assets/301291/19909475/27d9d6f0-a045-11e6-9483-54d76a164384.png)
+![envvar](/images/docs/intro/environment-variables--env-var.png)
 
 **Using container.json**
 
