@@ -1,6 +1,6 @@
 {
 	"id": "ui",
-	"type": "wedeploy/hosting:latest",
+	"type": "wedeploy/hosting:beta",
 	"env": {
 		"WEDEPLOY_WEB_PATH": "/dist/"
 	}
