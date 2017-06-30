@@ -18,7 +18,7 @@ weight: 6
 
 #### Checkout what you built
 
-Now you can go to your projects url (`<your-projec>.wedeploy.io`) in the top left corner of the dashboard, and **start playing**!
+Now you can go to your projects url (`<your-projec>.wedeploy.io`) in the top left corner of the Console, and **start playing**!
 
 #### What's next?
 

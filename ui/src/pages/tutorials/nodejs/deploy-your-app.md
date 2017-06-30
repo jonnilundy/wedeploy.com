@@ -45,6 +45,6 @@ Give it a few moments and then go to `nodejs.<your-project-id>.wedeploy.io` to s
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-You can always check the status of your deployment by going to the _overview_ section of your project's <a href="http://dashboard.wedeploy.com" target="_blank">dashboard</a>.
+You can always check the status of your deployment by going to the _overview_ section of your project's <a href="https://console.wedeploy.com" target="_blank">console</a>.
 
 </aside>

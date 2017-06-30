@@ -33,6 +33,6 @@ Give it a few moments and then go check your project's URL again. You should see
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-Want to make your Java Service the primary service so that it is served to your project's root url (`<your-project-id>.wedeploy.io`)? Perfect, that is extremely easy to do. Go to the settings tab of your project's dashboard and select _java_ as your _Home Service_.
+Want to make your Java Service the primary service so that it is served to your project's root url (`<your-project-id>.wedeploy.io`)? Perfect, that is extremely easy to do. Go to the settings tab of your project's console and select _java_ as your _Home Service_.
 
 </aside>

@@ -13,7 +13,7 @@ weight: 2
 
 To begin, we will create a new WeDeploy project.
 
-1. Go to the <a href="http://dashboard.wedeploy.com" target="_blank">WeDeploy Dashboard</a>
+1. Go to the <a href="https://console.wedeploy.com" target="_blank">WeDeploy Console</a>
 2. Click on the _New Project_ button
 3. Enter a _Project ID_
 4. Click on the _Create Project_ button

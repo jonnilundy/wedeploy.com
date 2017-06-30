@@ -43,7 +43,7 @@ weDeploy.email("email.<your-project-id>.wedeploy.io")
 
 In order for your email request to be authorized, you must add your project's unique Master Token.
 
-1. Go to the <a href="http://dashboard.wedeploy.com" target="_blank">WeDeploy dashboard</a>
+1. Go to the <a href="https://console.wedeploy.com" target="_blank">WeDeploy Console</a>
 2. Click on your project
 3. Go to the _Settings_ section
 4. Copy your Master Token

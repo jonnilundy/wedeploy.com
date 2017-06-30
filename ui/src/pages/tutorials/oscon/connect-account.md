@@ -15,11 +15,11 @@ Now go and [create a WeDeploy account](#), if you don't have one already.
 
 #### Create a new project
 
-On the [WeDeploy Dashboard](http://dashboard.wedeploy.com/projects), create a new project (name it whatever you want 👍).
+On the [WeDeploy Console](https://console.wedeploy.com/projects), create a new project (name it whatever you want 👍).
 
 #### Link your GitHub account
 
-Inside of your new project on the dashboard: 
+Inside of your new project on the Console: 
 
 1. Go to _Deployment_
 2. Select _GitHub_

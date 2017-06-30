@@ -17,7 +17,7 @@ Sending emails with WeDeploy is super easy. This tutorial will walk you through 
 
 <ul class="checklist">
 	<li>A <a href="https://git-scm.com/downloads" target="_blank">Git</a> client</li>
-	<li><a href="http://dashboard.wedeploy.com/signup" target="_blank">A WeDeploy account</a></li>
+	<li><a href="https://console.wedeploy.com/signup" target="_blank">A WeDeploy account</a></li>
 	<li><a href="https://developer.apple.com/xcode" target="_blank">Xcode</a></li>
 	<li><a href="https://cocoapods.org/" target="_blank">Cocoapods</a></li>
 </ul>
