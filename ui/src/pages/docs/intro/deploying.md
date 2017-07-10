@@ -28,9 +28,9 @@ curl http://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
 
 ##### 2. Deploy instantly
 
-Open your terminal to the project you want to deploy and run `we deploy`. This will immediate start building and deploying your folder based on the files inside. Follow the prompts in your terminal in order to open your new project url in any browser.
+Open your terminal to the project you want to deploy and run `we deploy`. This will immediately start building and deploying your folder based on the files inside. Follow the prompts in your terminal in order to open your new project url in any browser.
 
-**If you don't have a project** ready to deploy, you can download this simple [hello world HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), move it to its own folder, and run `we deploy` from there.
+**Note:** If you don't have a project ready to deploy, you can download this simple [hello world HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), move it to its own folder, and run `we deploy` from there.
 
 </article>
 
