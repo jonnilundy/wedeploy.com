@@ -14,9 +14,9 @@ weight: 4
 
 ## Instant Deployment
 
-When you have a simple static site, deploying shouldn't be a slow process of configuration and setup. In fact, it shouldn't even be quick, it should be instant. 
+Deploying your app shouldn't be a slow process of configuration and setup. In fact, it shouldn't even be quick, it should be instant. 
 
-That's why we built **WeDeploy Instant Deployment**.
+That's why we built **WeDeploy Instant Deployment**, our lightning-fast, zero-configuration CLI deployment flow.
 
 ##### 1. Download the CLI
 
@@ -26,15 +26,11 @@ In your terminal, run this command:
 curl http://cdn.wedeploy.com/cli/latest/wedeploy.sh -sL | bash
 ```
 
-##### 2. Go to your project
+##### 2. Deploy instantly
 
-Now that you have the WeDeploy CLI installed, you can go to the root folder of your project and get ready for the magic to start. 
+Open your terminal to the project you want to deploy and run `we deploy`. This will immediate start building and deploying your folder based on the files inside. Follow the prompts in your terminal in order to open your new project url in any browser.
 
-**If you don't have a project** ready to deploy, you can download this simple [hello world HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), move it to its own folder, and deploy from there.
-
-##### 3. Deploy instantly
-
-Now the moment you've been waiting for. With your terminal open to the project you want to deploy, just run `we deploy` and it's live! Follow the prompts in your terminal in order to open your new project url in any browser.
+**If you don't have a project** ready to deploy, you can download this simple [hello world HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), move it to its own folder, and run `we deploy` from there.
 
 </article>
 
@@ -42,52 +38,29 @@ Now the moment you've been waiting for. With your terminal open to the project y
 
 ## Continuous Deployment
 
-Continuous Deployment is powered by our handy [GitHub](htps://github.com) integration that triggers a deploy on your project every time you push changes to the designated repo branch. It is super easy to setup and greatly speeds up your development flow.
+**WeDeploy Continuous Deployment** is powered by our handy [GitHub](htps://github.com) integration that triggers a new deployment every time you push changes to the designated branch of your repo. It has zero configuration and will greatly speed up your development flow.
 
-##### 1. Setup project
-
-To start, create a new folder wherever you want your project to live. Inside that folder, you must create a new file and name it `container.json`. This is the primary config file that you will use in all your WeDeploy projects to designate what service you want to deploy (and some other [fun configurations](/docs/intro/configuration-files.html)). 
-
-Inside that `container.json`, paste this code.
-
-```
-{
-	"id": "ui",
-	"type": "wedeploy/hosting:latest"
-}
-```
-
-##### 2. Add files and push
-
-So your empty project is ready to deploy, but we want to make it more interesting by **adding our own static files** for WeDeploy to serve. 
-
-* **If you already have a project** of static HTML, CSS, and JS files, you can paste those into the folder (making sure that your `index.html` is on the same folder level as the `container.json`).
-
-* **If you don't have a project**, then download this simple ["hello world" HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), and add it to the folder we created above.
-
-Now you can **push your project** to a GitHub repo. Run these commands in a terminal within your project folder.
-
-1. `git init` (if you haven't already)
-2. `git add .`
-3. `git commit -m "first commit"`
-4. `git push origin master` 
-
-##### 3. Create project and Deploy
-
-Now that your local files are ready, we must **create a project** inside the WeDeploy Console before we can deploy. 
+##### 1. Create project
 
 1. Go to the [WeDeploy Console](console.wedeploy.com)
 2. Click on "New Project" in the top right corner of the screen
 3. Type a desired project name and then click "Create Project"
 
-Now all we need to do is **link this WeDeploy project with the GitHub repo** that you just pushed to.
+##### 2. Link GitHub repo
 
 1. On your project's console, click on "deployment"
 2. Go to "GitHub" (if its your first time, you will need to connect your GitHub)
 3. Select the repo and branch that you deployed to
 4. Click "Connect Repository"
 
-Now WeDeploy will automatically start deploying your files from the repo. You can go back to "Overview" to see the activity of the deployment. Once it is ready, select the "ui" service and then click the link at the top of the page. This will take you to your live page!
+Now go to the "Overview" section on your Dashboard so you can see the deployment in progress.
+
+**Note:** If you don't have a project, then download this simple ["hello world" HTML file](https://gist.github.com/jonnilundy/df30e208dd1e84babf8b339ad2fbcbc9/archive/6d7bd9321c108bb4ed7c5ce4f3b79fb3b578c39a.zip), push it to a GitHub repo, and link that repo with the steps 1-4 above.
+
+
+##### 3. Push. Deploy. Repeat.
+
+Now that your project is live, you can continue to push your future changes to that same branch of your repo and WeDeploy will automatically start another deployment every time.
 
 </article>
 
@@ -95,7 +68,7 @@ Now WeDeploy will automatically start deploying your files from the repo. You ca
 
 ## Tutorials
 
-We have created a whole array of tutorials to teach you how to start using WeDeploy with simple, step-by-step instructions. Click on one of the links bellow that interests you to begin!
+We have created a whole array of tutorials to teach you how to start using WeDeploy with simple, step-by-step instructions. Click on one of the links below that interests you to begin!
 
 **WeDeploy Services (Web)**
 
