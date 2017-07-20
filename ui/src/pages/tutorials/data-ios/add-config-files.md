@@ -6,29 +6,29 @@ tutorialTitle: "Getting started with WeDeploy Data on iOS"
 parentId: "data-ios"
 layout: "tutorial"
 time: 60
-weight: 4
+weight: 5
 ---
 
 #### Add Config Files
 
-###### container.json
+###### wedeploy.json
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to our Data Service in the repo we just cloned.
+Since every service folder must have a `wedeploy.json` file that configures the service, let's add one to our Data Service in the repo we just cloned.
 
 1. Open the `tutorial-data-ios` folder in a code editor.
-2. Create a new file inside of the `data` folder and name it `container.json`.
+2. Create a new file inside of the `data` folder and name it `wedeploy.json`.
 3. Inside of that file, paste this code.
 
 ```application/json
 {
 	"id": "data",
-	"type": "wedeploy/data:latest"
+	"image": "wedeploy/data:beta"
 }
 ```
 
 ###### api.json
 
-Along with the container.json, each Data service must have an `api.json` file to configure your database (eg. set path, allow certain methods, and require authentication).
+Along with the wedeploy.json, each Data service must have an `api.json` file to configure your database (eg. set path, allow certain methods, and require authentication).
 
 1. Go back to `tutorial-data-ios` in your code editor.
 2. Create another file inside of the `data` folder and name it `api.json`.

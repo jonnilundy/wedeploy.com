@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on Android"
 parentId: "data-android"
 layout: "tutorial"
 time: 80
-weight: 7
+weight: 8
 ---
 
 #### Add API Methods
@@ -18,7 +18,7 @@ Now we want to add some code that will save data to a collection.
 To do this, go to `AddToDoActivity.java` and paste this code into the "addToDo" method:
 
 ```text/x-java
-weDeploy.data("data.<your-project-id>.wedeploy.io")
+weDeploy.data("data-<projectID>.wedeploy.sh")
 	.create("tasks", jsonObject)
 	.execute(new Callback() {
 		@Override
@@ -34,7 +34,7 @@ weDeploy.data("data.<your-project-id>.wedeploy.io")
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 ###### Fetch Data
 
@@ -43,7 +43,7 @@ Next, we want to add the code that will fetch data from the collection.
 To do this, go to `ToDoListActivity.java` and paste this code into the "populateList" method:
 
 ```text/x-java
-weDeploy.data("data.<your-project-id>.wedeploy.io")
+weDeploy.data("data-<projectID>.wedeploy.sh")
 	.limit(5)
 	.orderBy("id", SortOrder.DESCENDING)
 	.get("tasks")
@@ -65,7 +65,7 @@ weDeploy.data("data.<your-project-id>.wedeploy.io")
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 <aside>
 

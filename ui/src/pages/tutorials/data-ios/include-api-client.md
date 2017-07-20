@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on iOS"
 parentId: "data-ios"
 layout: "tutorial"
 time: 40
-weight: 5
+weight: 6
 ---
 
 #### Include API Client
@@ -25,4 +25,4 @@ After doing this, you have to install the dependencies on the project, to do tha
 pod install
 ```
 
-You will see all the dependencies being installed
+You will see all the dependencies being installed.

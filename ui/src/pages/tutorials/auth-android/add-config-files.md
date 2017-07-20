@@ -6,23 +6,23 @@ tutorialTitle: "Getting started with WeDeploy Auth on an Android app"
 parentId: "auth-android"
 layout: "tutorial"
 time: 60
-weight: 4
+weight: 5
 ---
 
 #### Add Config Files
 
-Every service folder must have a `container.json` file that configures the service. Let's add one to our Auth Service in the repo we just cloned.
+Since every service folder must have a `wedeploy.json` file that configures the service, let's add one to our Auth Service in the repo we just cloned.
 
 ##### Auth
 
 1. Open the `tutorial-auth-android` folder in a code editor.
-2. Create a new file named `container.json` inside the `auth` folder.
+2. Create a new file named `wedeploy.json` inside the `auth` folder.
 3. In that file, paste this code:
 
 ```application/json
 {
 	"id": "auth",
-	"type": "wedeploy/auth:latest",
+	"image": "wedeploy/auth:beta",
 	"env": {
 		"WEDEPLOY_AUTH_SECURE_FIELDS": "password",
 		"WEDEPLOY_AUTH_PASSWORD": "true"
@@ -34,12 +34,12 @@ Every service folder must have a `container.json` file that configures the servi
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-One of the awesome things you can do in your `container.json` file is add environment variables. There are many ways to use these; one example is to provide Google sign-in for your users.
+One of the awesome things you can do in your `wedeploy.json` file is add environment variables. There are many ways to use these; one example is to provide Google sign-in for your users.
 
 ```application/json
 {
 	"id": "auth",
-	"type": "wedeploy/auth",
+	"image": "wedeploy/auth:beta",
 	"env": {
 		"WEDEPLOY_AUTH_SECURE_FIELDS": "password",
 		"WEDEPLOY_AUTH_PASSWORD": "true",

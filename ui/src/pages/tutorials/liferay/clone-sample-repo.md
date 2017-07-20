@@ -28,9 +28,9 @@ Every WeDeploy project follows a similar file structure by using JSON files to m
 ```xml
 your-project
 ├── email
-│   └── container.json
+│   └── wedeploy.json
 ├── Liferay
-│   └── container.json
+│   └── wedeploy.json
 └── project.json
 ```
 

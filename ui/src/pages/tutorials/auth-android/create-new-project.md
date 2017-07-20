@@ -5,7 +5,7 @@ buttonTitle: "I created a project"
 tutorialTitle: "Getting started with WeDeploy Auth on an Android app"
 parentId: "auth-android"
 layout: "tutorial"
-time: 30
+time: 20
 weight: 2
 ---
 
@@ -18,4 +18,4 @@ To begin, we will create a new WeDeploy project.
 3. Enter a _Project ID_
 4. Click on the _Create Project_ button
 
-The Project ID you entered is the ID you will use in place of all future `<your-project-id>` elements in this tutorial.
+The Project ID you entered is the ID you will use in place of all future `<projectID>` elements in this tutorial.

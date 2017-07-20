@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Auth on the web"
 parentId: "auth-web"
 layout: "tutorial"
 time: 30
-weight: 5
+weight: 6
 ---
 
 #### Include API Client
@@ -22,7 +22,7 @@ To do this, go to `tutorial-auth-web/hosting/` and include this script link at t
 </ul>
 
 ```xml
-<script src="https://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
+<script src="https://cdn.wedeploy.com/api/beta/wedeploy.js"></script>
 ```
 
 

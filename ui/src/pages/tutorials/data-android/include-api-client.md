@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on Android"
 parentId: "data-android"
 layout: "tutorial"
 time: 40
-weight: 5
+weight: 6
 ---
 
 #### Include API Client

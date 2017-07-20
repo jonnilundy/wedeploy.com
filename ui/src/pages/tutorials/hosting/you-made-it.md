@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to deploy an application using W
 tutorialTitle: "Getting started with WeDeploy Hosting"
 parentId: "hosting"
 layout: "tutorial"
-weight: 7
+weight: 8
 ---
 
 <div class="notfound">

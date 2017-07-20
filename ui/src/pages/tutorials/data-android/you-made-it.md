@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to save and get data on Android 
 layout: "tutorial"
 tutorialTitle: "Getting started with WeDeploy Data on Android"
 parentId: "data-android"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

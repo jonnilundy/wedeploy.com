@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to authenticate users on the web
 layout: "tutorial"
 tutorialTitle: "Getting started with WeDeploy Auth on the web"
 parentId: "auth-web"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

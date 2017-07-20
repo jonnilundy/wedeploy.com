@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on iOS"
 parentId: "data-ios"
 layout: "tutorial"
 time: 10
-weight: 8
+weight: 9
 ---
 
 #### It Works
@@ -17,4 +17,4 @@ Great work, your app is now live! Now let's start playing with some data.
 2. Type an item into the input and click _Add Item_.
 3. Click _Go to item listing_ and see how your data is already populated.
 
-Awesome! You just created an app and saved data within a few minutes! We can't wait to see what else you create with WeDeploy! 
+Awesome! You just created an app and saved data within a few minutes! We can't wait to see what else you create with WeDeploy!

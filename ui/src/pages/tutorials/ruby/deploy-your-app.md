@@ -18,7 +18,7 @@ Now the moment you have been waiting for - deployment!
 Open up your terminal and go to the `tutorial-ruby` folder. Then, add a git remote by running:
 
 ```xml
-git remote add wedeploy http://git.wedeploy.com/<your-project-id>.git
+git remote add wedeploy http://git.wedeploy.com/<projectID>.git
 ```
 
 ###### Push first commit
@@ -35,7 +35,7 @@ If it is your first time pushing to WeDeploy's git, you will need to enter the e
 
 Once you have pushed, WeDeploy will immediately start deploying your project.
 
-Give it a few moments and then go to `ruby.<your-project-id>.wedeploy.io` to see what you deployed! Pretty cool, right?
+Give it a few moments and then go to `ruby-<projectID>.wedeploy.sh` to see what you deployed! Pretty cool, right?
 
 <figure>
 	<img src="/images/tutorials/it-works.png" alt="It works!">

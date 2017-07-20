@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Auth on an Android app"
 parentId: "auth-android"
 layout: "tutorial"
 time: 90
-weight: 7
+weight: 8
 ---
 
 #### Add API Methods
@@ -18,7 +18,7 @@ First, let's add the code that will allow users to create an account.
 To do this, go to `SignUpActivity.java` and paste this code in the "doSignUp" method:
 
 ```text/x-java
-weDeploy.auth("auth.<your-project-id>.wedeploy.io")
+WeDeploy.auth("auth-<projectID>.wedeploy.sh")
 	.createUser(email, password, name)
 	.execute(new Callback() {
 		@Override
@@ -34,9 +34,7 @@ weDeploy.auth("auth.<your-project-id>.wedeploy.io")
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
-
-Now you can run the app, click on create an account button, fill the fields and create a new user!
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 ###### Sign-in
 
@@ -45,7 +43,7 @@ Next, let's add the code that will allow users to sign-in.
 First of all, go to `LoginActivity.java`, and paste this code in the "doLogin" method:
 
 ```text/x-java
-weDeploy.auth("auth.<your-project-id>.wedeploy.io")
+WeDeploy.auth("auth-<projectID>.wedeploy.sh")
 	.signIn(email, password).execute(new Callback() {
 		@Override
 		public void onSuccess(Response response) {
@@ -59,17 +57,16 @@ weDeploy.auth("auth.<your-project-id>.wedeploy.io")
 	});
 ```
 
-If you run the app and fill the login fields you can login into WeDeploy!
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 <aside>
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-In the examples above we use the execute(callback) method to handle the response with a callback, which is the most typical way of doing it in the Android ecosystem,
-but we can also handle the result using a RxJava Single, which is similar to an Observable, but it either emits one value or an error notification:
+In the examples above we use the execute(callback) method to handle the response with a callback, which is the most typical way of doing it in the Android ecosystem, but we can also handle the result using a RxJava Single, which is similar to an Observable, but it either emits one value or an error notification:
 
 ```text/x-java
-weDeploy.auth("auth.<your-project-id>.wedeploy.io")
+WeDeploy.auth("auth-myapp.wedeploy.sh")
 	.signIn(email, password)
 	.asSingle()
 	.subscribe(new DisposableSingleObserver<Response>() {

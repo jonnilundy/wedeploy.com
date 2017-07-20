@@ -16,7 +16,6 @@ Deploying a Liferay instance with WeDeploy is super easy. This tutorial will wal
 ###### What you'll need
 
 <ul class="checklist">
-	<li>A <a href="https://git-scm.com/downloads" target="_blank">Git</a> client</li>
 	<li><a href="https://console.wedeploy.com/signup" target="_blank">A WeDeploy account</a></li>
 	<li>A code editor</li>
 </ul>

@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Auth on an iOS app"
 parentId: "auth-ios"
 layout: "tutorial"
 time: 30
-weight: 5
+weight: 6
 ---
 
 #### Include API Client
@@ -25,4 +25,4 @@ After doing this, you have to install the dependencies on the project, to do tha
 pod install
 ```
 
-You will see all the dependencies being installed
+You will see all the dependencies being installed.

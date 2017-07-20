@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Email on Android"
 parentId: "email-android"
 layout: "tutorial"
 time: 90
-weight: 7
+weight: 8
 ---
 
 #### Add API Method
@@ -18,7 +18,7 @@ weDeploy = new WeDeploy.Builder()
 	.authorization(new TokenAuthorization("000-000-000"))
 	.build();
 
-weDeploy.email("email.<your-project-id>.wedeploy.io")
+weDeploy.email("email-<projectID>.wedeploy.sh")
 	.from(from)
 	.to(to)
 	.subject(subject)
@@ -37,7 +37,7 @@ weDeploy.email("email.<your-project-id>.wedeploy.io")
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 #### Add master token
 
@@ -47,7 +47,7 @@ In order for your email request to be authorized, you must add your project's un
 2. Click on your project
 3. Go to the _Settings_ section
 4. Copy your Master Token
-5. Change the new TokenAuthorization('000-000-000') initialization to new TokenAuthorization('your-master-token') in the Java code
+5. Change the new `TokenAuthorization('000-000-000')` initialization to new `TokenAuthorization('yourMasterToken')` in the Java code
 
 <aside>
 

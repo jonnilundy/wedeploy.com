@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on the web"
 parentId: "data-web"
 layout: "tutorial"
 time: 80
-weight: 6
+weight: 7
 ---
 
 #### Add API Methods
@@ -19,7 +19,7 @@ To do this, go to `tutorial-data-web/hosting/index.js` and paste this code:
 
 ```javascript
 WeDeploy
-	.data('data.<your-project-id>.wedeploy.io')
+	.data('data-<projectID>.wedeploy.sh')
 	.create('tasks', {name: form.item.value })
 	.then(function(response) {
 		form.reset();
@@ -31,7 +31,7 @@ WeDeploy
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 ###### Fetch Data
 
@@ -41,7 +41,7 @@ To do this, go to `list.js` inside of the same folder and paste this code:
 
 ```javascript
 WeDeploy
-	.data('data.<your-project-id>.wedeploy.io')
+	.data('data-<projectID>.wedeploy.sh')
 	.orderBy('id', 'desc')
 	.limit(5)
 	.get('tasks')
@@ -53,7 +53,7 @@ WeDeploy
 	});
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 <aside>
 

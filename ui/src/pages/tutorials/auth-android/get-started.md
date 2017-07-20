@@ -11,12 +11,11 @@ weight: 1
 
 #### Get Started
 
-Authenticating users with WeDeploy is super easy. This tutorial will walk you through how to create, sign in, and sign out users in your Android app using the API Client and how to deploy your project using Git.
+Authenticating users with WeDeploy is super easy. This tutorial will walk you through how to create, sign in, and sign out users in your Android app using the API Client and how to deploy your project with one terminal command.
 
 ###### What you'll need
 
 <ul class="checklist">
-	<li>A <a href="https://git-scm.com/downloads" target="_blank">Git</a> client</li>
 	<li><a href="https://console.wedeploy.com/signup" target="_blank">A WeDeploy account</a></li>
 	<li><a href="https://developer.android.com/studio/index.html" target="_blank">Android Studio</a></li>
 </ul>
@@ -30,6 +29,6 @@ Authenticating users with WeDeploy is super easy. This tutorial will walk you th
 	<li>Deploy the project</li>
 	<li>Add the API methods</li>
 	<li>Run the App</li>
-	<li>Start authenticate users</li>
+	<li>Start authenticating users</li>
 </ul>
 

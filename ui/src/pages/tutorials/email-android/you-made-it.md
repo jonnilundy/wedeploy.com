@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to send an email on Android usin
 tutorialTitle: "Getting started with WeDeploy Email on Android"
 parentId: "email-android"
 layout: "tutorial"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

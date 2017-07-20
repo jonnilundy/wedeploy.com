@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Auth on the web"
 parentId: "auth-web"
 layout: "tutorial"
 time: 30
-weight: 3
+weight: 4
 ---
 
 #### Clone Sample Repo
@@ -23,21 +23,17 @@ git clone https://github.com/wedeploy/tutorial-auth-web.git
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-Every WeDeploy project follows a similar file structure by using JSON files to managing your project, service, and data path configurations.
+Building an app with multiple services is very easy with WeDeploy. Every directory that contains a `wedeploy.json` will be treated as a separate service. If a specific image type is not detected, we will scan the conents of the directory and deploy the service that is most like your source code (`package.json` = Node.js, `Dockerfile` = Custom Docker Image, `index.html` = static hosting).
 
 ```xml
-your-project
-├── data
-│   ├── api.json
-│   └── container.json
+yourApp
 ├── auth
-│   └── container.json
-├── hosting
-│   ├── container.json
-│   └── index.html
-└── project.json
+│	└── wedeploy.json
+├── db
+│	└── wedeploy.json
+└── Docker
+ 	├── wedeploy.json
+ 	└── Dockerfile
 ```
-
-You can see a similar file structure in the repo you just cloned. Want to know more about <a href="/docs/intro/configuration-files.html" target="_blank">configuration files</a>?
 
 </aside>

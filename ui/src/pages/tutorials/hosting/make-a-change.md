@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Hosting"
 parentId: "hosting"
 layout: "tutorial"
 time: 90
-weight: 6
+weight: 7
 ---
 
 #### Make a Change
@@ -17,22 +17,24 @@ Our project is now live, but what's next? Let's try deploying a new change to ou
 
 Go back to your project and open up the `index.html` in your code editor. Change the text in the `<h1>` element (try putting "You Rock!").
 
-###### Push
+###### Deploy
 
-Now make another commit and push your changes to the WeDeploy remote!
+Go to `tutorial-hosting` in your terminal and deploy your project again:
 
-1. `git add .`
-2. `git commit -m "update header"`
-3. `git push wedeploy master`
+```xml
+we deploy --project projectID
+```
+
+**Note:** make sure to replace `projectID` with the id of your project.
 
 ###### See it live
 
-Give it a few moments and then go check your project's URL again. You should see the text change to "You Rock!" because let's be honest, you do!
+Go to `hosting-<projectID>.wedeploy.sh` in your browser and see the changes you made!
 
 <aside>
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-Want to make your Hosting Service the primary service so that it is served to your project's root url (`<your-project-id>.wedeploy.io`)? Perfect, that is extremely easy to do. Go to the settings tab of your project's console and select _hosting_ as your _Home Service_.
+Wanting to make a pretty url for your primary UI service without purchasing a custom domain? Perfect, you can go to the _Custom Domain_ section of your service on the Dashboard and add a custom domain that ends with `wedeploy.io` (e.g. `yourapp.wedeploy.io`).
 
 </aside>

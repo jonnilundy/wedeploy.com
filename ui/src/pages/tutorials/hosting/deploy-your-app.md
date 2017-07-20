@@ -6,45 +6,31 @@ tutorialTitle: "Getting started with WeDeploy Hosting"
 parentId: "hosting"
 layout: "tutorial"
 time: 90
-weight: 5
+weight: 6
 ---
 
-#### Deploy Your App
+#### Deploy the Project
 
 Now the moment you have been waiting for - deployment!
 
-###### Add a Git remote
-
-Open up your terminal and go to the `tutorial-hosting` folder. Then, add a git remote by running:
+Go to `tutorial-hosting` in your terminal and deploy your project:
 
 ```xml
-git remote add wedeploy http://git.wedeploy.com/<your-project-id>.git
+we deploy --project projectID
 ```
 
-###### Push first commit
+**Note:** make sure to replace `projectID` with the id of your project.
 
-The remote is now set up and you are ready to make your first commit! 
-
-1. `git add .`
-2. `git commit -m "Awesome commit"`
-3. `git push wedeploy master`
-
-If it is your first time pushing to WeDeploy's git, you will need to enter the email and password for your WeDeploy account.
-
-###### See it live
-
-Once you have pushed, WeDeploy will immediately start deploying your project.
-
-Give it a few moments and then go to `hosting.<your-project-id>.wedeploy.io` to see what you deployed! Pretty cool, right?
-
-<figure>
-	<img src="/images/tutorials/it-works.png" alt="It works!">
-</figure>
+Now go to `hosting-<projectID>.wedeploy.sh` in your browser and see your live page!
 
 <aside>
 
 ###### <span class="icon-16-star"></span> Pro Tip
 
-You can always check the status of your deployment by going to the _overview_ section of your project's <a href="https://console.wedeploy.com" target="_blank">console</a>.
+If you are deploying static files with no `wedeploy.json`, we will automatically choose a random service id for you. To choose the id of your hosting service yourself, add `--service serviceID` to the deploy command above with your custom id. It could look something like this:
+
+```xml
+we deploy --project myapp --service ui
+```
 
 </aside>

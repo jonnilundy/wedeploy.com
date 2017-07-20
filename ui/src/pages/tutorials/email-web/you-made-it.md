@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to send an email on the web usin
 tutorialTitle: "Getting started with WeDeploy Email on the web"
 parentId: "email-web"
 layout: "tutorial"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

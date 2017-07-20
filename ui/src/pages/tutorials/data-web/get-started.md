@@ -11,12 +11,11 @@ weight: 1
 
 #### Get Started
 
-Saving and fetching data with WeDeploy is super easy. This tutorial will walk you through how to use data in your app using the API Client and how to deploy your project using Git.
+Saving and fetching data with WeDeploy is super easy. This tutorial will walk you through how to use data in your app using the API Client and how to deploy your project with one terminal command.
 
 ###### What you'll need
 
 <ul class="checklist">
-	<li>A <a href="https://git-scm.com/downloads" target="_blank">Git</a> client</li>
 	<li><a href="https://console.wedeploy.com/signup" target="_blank">A WeDeploy account</a></li>
 	<li>A code editor</li>
 </ul>

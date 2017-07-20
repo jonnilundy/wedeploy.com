@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Auth on an Android app"
 parentId: "auth-android"
 layout: "tutorial"
 time: 30
-weight: 5
+weight: 6
 ---
 
 #### Include API Client
@@ -19,4 +19,4 @@ To do this, go to `tutorial-auth-android/app/tutorial-auth-android/app/build.gra
 compile 'com.wedeploy:com.wedeploy.android:beta-20170505'
 ```
 
-After doing this, you have to sync the project, after a seconds you will see that the project is built correctly.
+After doing this, you have to sync the project and then a few seconds later you will see that the project is built correctly.

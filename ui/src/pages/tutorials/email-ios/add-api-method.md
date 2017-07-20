@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Email on iOS"
 parentId: "email-ios"
 layout: "tutorial"
 time: 90
-weight: 7
+weight: 8
 ---
 
 #### Add API Method
@@ -15,7 +15,7 @@ Now we want to add a script that will send an email. To do this, go to `tutorial
 
 ```swift
 let auth = TokenAuth(token: "000-000-000")
-WeDeploy.email("email.<your-project-id>.wedeploy.io", authorization: auth)
+WeDeploy.email("email-<projectID>.wedeploy.sh", authorization: auth)
 	.to(to)
 	.from(from)
 	.subject(subject)
@@ -33,7 +33,7 @@ WeDeploy.email("email.<your-project-id>.wedeploy.io", authorization: auth)
 	}
 ```
 
-**Note:** make sure to replace `<your-project-id>` with the id of your project.
+**Note:** make sure to replace `<projectID>` with the id of your project.
 
 #### Add master token
 
@@ -43,7 +43,7 @@ In order for your email request to be authorized, you must add your project's un
 2. Click on your project
 3. Go to the _Settings_ section
 4. Copy your Master Token
-5. Change the `TokenAuth('000-000-000')` initialization to `TokenAuth('your-master-token')` in the swift code
+5. Change the `TokenAuth(token: "000-000-000")` initialization to `TokenAuth(token: "yourMasterToken")` in the swift code
 
 <aside>
 

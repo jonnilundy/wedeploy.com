@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to save and get data on iOS usin
 layout: "tutorial"
 tutorialTitle: "Getting started with WeDeploy Data on the web"
 parentId: "data-ios"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

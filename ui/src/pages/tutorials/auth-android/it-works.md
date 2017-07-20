@@ -1,12 +1,12 @@
 ---
 title: "It Works"
 description: "In this section, you'll learn how to authenticate users on an Android app using the WeDeploy API Client."
-buttonTitle: "I logged in into WeDeploy"
+buttonTitle: "It works"
 tutorialTitle: "Getting started with WeDeploy Auth on an Android app"
 parentId: "auth-android"
 layout: "tutorial"
 time: 30
-weight: 8
+weight: 9
 ---
 
 #### It Works

@@ -30,9 +30,9 @@ Every WeDeploy project follows a similar file structure by using JSON files to m
 ```xml
 your-project
 ├── email
-│   └── container.json
+│   └── wedeploy.json
 ├── ruby
-│   ├── container.json
+│   ├── wedeploy.json
 │   └── app.rb
 └── project.json
 ```

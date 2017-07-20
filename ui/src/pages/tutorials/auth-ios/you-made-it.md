@@ -4,7 +4,7 @@ description: "In this section, you'll learn how to authenticate users on an iOS 
 layout: "tutorial"
 tutorialTitle: "Getting started with WeDeploy Auth on an iOS app"
 parentId: "auth-ios"
-weight: 9
+weight: 10
 ---
 
 <div class="notfound">

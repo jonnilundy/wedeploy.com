@@ -6,7 +6,7 @@ tutorialTitle: "Getting started with WeDeploy Data on the web"
 parentId: "data-web"
 layout: "tutorial"
 time: 40
-weight: 5
+weight: 6
 ---
 
 #### Include API Client
@@ -16,5 +16,5 @@ Before we can make any requests to save or fetch data, we must connect the WeDep
 To do this, go to `tutorial-data-web/hosting/` and include this script link at the bottom of the `<body>` element of `index.html` and `list.html`:
 
 ```xml
-<script src="https://cdn.wedeploy.com/api/latest/wedeploy.js"></script>
+<script src="https://cdn.wedeploy.com/api/beta/wedeploy.js"></script>
 ```
